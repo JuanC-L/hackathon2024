@@ -7,6 +7,7 @@ import torch
 import requests
 import PyPDF2
 import pdfplumber
+import tempfile
 import base64
 
 
@@ -533,7 +534,7 @@ elif selected == "Mensajes":
     st.title("LuMI Chat")
 
     # Configuración del cliente de OpenAI con la clave API
-    openai.api_key = "sk-svcacct-a1MZI8E9hKbUpVipGsu6Vot-AHbf4e_2FZxK4mMUjxXdygT3BlbkFJSALbM3XsduooEJoHPY2dPBvNX5FlySAoyU8RQyKJJsPYgA"
+    openai.api_key = st.secrets["OPENAI_API_KEY"]
 
     # Verificar si el modelo está configurado en la sesión
     if "openai_model" not in st.session_state:
