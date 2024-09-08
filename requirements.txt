@@ -23,4 +23,3 @@ torch
 requests
 PyPDF2
 pdfplumber
-tempfile
