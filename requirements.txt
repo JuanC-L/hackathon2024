@@ -23,6 +23,4 @@ torch
 requests
 PyPDF2
 pdfplumber
-wave
-tempfile
 base64
