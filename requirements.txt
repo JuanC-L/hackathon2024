@@ -21,3 +21,9 @@ openai
 transformers
 torch
 requests
+PyPDF2
+pdfplumber
+json
+wave
+tempfile
+base64
