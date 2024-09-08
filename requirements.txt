@@ -17,7 +17,7 @@ oauth2client
 google.cloud
 gspread
 python-dotenv
-openai
+openai==0.27.0
 transformers
 torch
 requests
