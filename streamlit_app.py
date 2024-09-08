@@ -7,11 +7,6 @@ import torch
 import requests
 import PyPDF2
 import pdfplumber
-import PyPDF2
-from vosk import Model, KaldiRecognizer
-import wave
-import json
-import tempfile
 import base64
 
 
