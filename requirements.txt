@@ -17,3 +17,7 @@ oauth2client
 google.cloud
 gspread
 python-dotenv
+openai
+transformers
+torch
+requests
