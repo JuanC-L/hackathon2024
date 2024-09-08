@@ -1,1 +1,4 @@
-# hackathon2024
+
+# LuMI
+
+Plataforma en desarrollo.
